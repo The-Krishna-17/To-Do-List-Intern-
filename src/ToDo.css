@@ -1,0 +1,49 @@
+@keyframes blink {
+    0% {
+      color: red;
+    }
+    50% {
+      color: green;
+    }
+    100% {
+      color: red;
+    }
+  }
+  
+  .blinking-text {
+    animation: blink 1.5s infinite;
+  }
+  
+  @keyframes blinkRed {
+    0% {
+      color: red;
+    }
+    50% {
+      color: rgba(255, 0, 0, 0); /* Light Red */
+    }
+    100% {
+      color: red;
+    }
+  }
+  
+  .blinkRed {
+    animation: blinkRed 1.5s infinite;
+  }
+  
+  @keyframes blinkGreen {
+    0% {
+      color: green;
+    }
+    50% {
+      color: rgba(34, 128, 0, 0); /* Light Green */
+    }
+    100% {
+      color: green;
+    }
+  }
+  
+  .blinkGreen {
+    animation: blinkGreen 1.5s infinite;
+  }
+  
+  
